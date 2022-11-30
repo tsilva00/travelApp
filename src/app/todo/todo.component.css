@@ -1,0 +1,86 @@
+.spinner {
+    min-height: 100vh;
+    position: absolute;
+    width: 100%;
+    background: #ffffff7a;
+    margin-top: 50%;
+    z-index: 99;
+}
+svg {
+    width: 10rem;
+    height: 10rem;
+}
+
+.login-box{
+    min-height: 100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center
+}
+
+.title {
+    margin-right: 14px;
+    text-transform: uppercase;
+    padding-bottom: 13px;
+    font-family: monospace;
+}
+
+span {
+    text-transform: capitalize;
+}
+
+.fa-check-circle:before, .fa-circle-check:before, .fa-circle:before {
+    margin-right: 5px !important;
+}
+
+button.login {
+    background: linear-gradient(90deg, rgba(238,155,0,1) 9%, rgba(187,62,3,1) 47%, rgba(155,34,38,1) 89%);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    
+}
+/*box do Título*/
+.card-header.text-center {
+    background: linear-gradient(90deg, rgba(238,155,0,1) 9%, rgba(187,62,3,1) 47%, rgba(155,34,38,1) 89%);
+
+    color: white;
+}
+
+/*Título*/
+h1 {
+    font-size: 30px;
+}
+
+/*Input Text*/
+.input-group {
+    margin-bottom: 17px;
+}
+
+i.fa.fa-plus-circle.fa-2x {
+    font-size: 1.5em;
+    margin-top: 0.1cm;
+}
+
+/*li*/
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 5px;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.125);
+}
+
+/*Botão Adicionar*/
+button.add {
+    border: 1px solid #ced4da;
+    background: white;
+}
+
+/*Botão Deletar*/
+.del {
+    float: right;
+    border: none;
+    background: white;
+}
