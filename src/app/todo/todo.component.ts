@@ -82,7 +82,7 @@ export class TodoComponent implements OnInit {
       }
 
       this.db.collection('items').ref.where('userId', '==', this.user.toUpperCase()).get().then(items => {
-        this.lista = items .docs.map(d => d.data())
+        this.lista = items.docs.map(d => d.data())
      })
     })
   }
